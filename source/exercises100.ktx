@@ -1,6 +1,8 @@
 < q1
 Import the numpy package under the name `np` (★☆☆)
 
+import numpy as np
+
 < h1
 hint: import … as
 
@@ -9,6 +11,9 @@ import numpy as np
 
 < q2
 Print the numpy version and the configuration (★☆☆)
+
+print(np.__version__)
+np.show_config()
 
 < h2
 hint: np.__version__, np.show_config)
